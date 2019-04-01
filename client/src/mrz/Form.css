@@ -1,0 +1,14 @@
+.demoForm {
+	width: 500px;
+	margin: auto;
+}
+
+.outputDiv {
+    background: #ccc;
+    margin: 15px 0 0 0;
+    line-height: 30px;
+}
+
+.txtLabel {
+    float: left;
+}

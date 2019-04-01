@@ -1,0 +1,23 @@
+{
+  "name": "mrz-ui",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "app-root-path": "^2.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "http-errors": "^1.7.2",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.8.0",
+    "mrz-gen": "^1.0.8"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
